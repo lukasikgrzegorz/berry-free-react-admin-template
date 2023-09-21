@@ -2,7 +2,7 @@
   "name": "berry-free-material-react-cra",
   "version": "3.3.2",
   "private": true,
-  "homepage": "https://berrydashboard.io/free",
+  "homepage": "https://berrydashboard.io/",
   "dependencies": {
     "@emotion/cache": "^11.9.3",
     "@emotion/react": "^11.9.3",
@@ -16,6 +16,7 @@
     "apexcharts": "^3.35.3",
     "formik": "^2.2.9",
     "framer-motion": "^6.3.16",
+    "html-to-image": "^1.11.11",
     "material-ui-popup-state": "^4.0.1",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",

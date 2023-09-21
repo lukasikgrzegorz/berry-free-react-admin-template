@@ -17,7 +17,7 @@ import {
 } from '@mui/material';
 
 // assets
-import TableChartOutlinedIcon from '@mui/icons-material/TableChartOutlined';
+import DataUsageRoundedIcon from '@mui/icons-material/DataUsageRounded';
 
 // styles
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
@@ -102,17 +102,17 @@ const MenuCard = () => {
                   marginRight: '12px'
                 }}
               >
-                <TableChartOutlinedIcon fontSize="inherit" />
+                <DataUsageRoundedIcon fontSize="inherit" />
               </Avatar>
             </ListItemAvatar>
             <ListItemText
               sx={{ mt: 0 }}
               primary={
                 <Typography variant="subtitle1" sx={{ color: theme.palette.primary[800] }}>
-                  Get Extra Space
+                  Tokens usage
                 </Typography>
               }
-              secondary={<Typography variant="caption"> 28/23 GB</Typography>}
+              secondary={<Typography variant="caption"> 40000/50000 TK</Typography>}
             />
           </ListItem>
         </List>
