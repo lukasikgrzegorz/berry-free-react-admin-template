@@ -8,20 +8,20 @@ const icons = {
 
 // ==============================|| UTILITIES MENU ITEMS ||============================== //
 
-const products = {
-  id: 'products',
-  title: 'Products',
+const examples = {
+  id: 'examples',
+  title: 'Examples',
   type: 'group',
   children: [
     {
       id: 'util-typography',
-      title: 'Add new product',
+      title: 'Product Description',
       type: 'item',
-      url: '/utils/util-typography',
+      url: '/examples/productdescription',
       icon: icons.IconPlus,
       breadcrumbs: false
     }
   ]
 };
 
-export default products;
+export default examples;

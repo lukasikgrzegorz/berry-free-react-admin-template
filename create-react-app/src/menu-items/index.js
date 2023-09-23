@@ -1,5 +1,5 @@
 import dashboard from './dashboard';
-import products from './products';
+import products from './examples';
 
 // ==============================|| MENU ITEMS ||============================== //
 
