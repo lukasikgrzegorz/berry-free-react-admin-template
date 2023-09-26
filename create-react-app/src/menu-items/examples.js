@@ -1,9 +1,10 @@
 // assets
-import { IconPlus } from '@tabler/icons';
+import { IconStack, IconPencil } from '@tabler/icons';
 
 // constant
 const icons = {
-  IconPlus
+  IconStack,
+  IconPencil
 };
 
 // ==============================|| UTILITIES MENU ITEMS ||============================== //
@@ -14,11 +15,19 @@ const examples = {
   type: 'group',
   children: [
     {
-      id: 'util-typography',
+      id: 'product-description',
       title: 'Product Description',
       type: 'item',
       url: '/examples/productdescription',
-      icon: icons.IconPlus,
+      icon: icons.IconStack,
+      breadcrumbs: false
+    },
+    {
+      id: 'blog-post',
+      title: 'Blog Post',
+      type: 'item',
+      url: '/examples/blogpost',
+      icon: icons.IconPencil,
       breadcrumbs: false
     }
   ]

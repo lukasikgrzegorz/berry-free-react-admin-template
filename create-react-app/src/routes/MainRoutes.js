@@ -9,6 +9,7 @@ const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')))
 
 // utilities routing
 const ProductDescription = Loadable(lazy(() => import('views/examples/ProductDescription')));
+const BlogPost = Loadable(lazy(() => import('views/examples/BlogPost')));
 const UtilsColor = Loadable(lazy(() => import('views/examples/Color')));
 const UtilsShadow = Loadable(lazy(() => import('views/examples/Shadow')));
 const UtilsMaterialIcons = Loadable(lazy(() => import('views/examples/MaterialIcons')));
@@ -42,6 +43,10 @@ const MainRoutes = {
         {
           path: 'productdescription',
           element: <ProductDescription />
+        },
+        {
+          path: 'blogpost',
+          element: <BlogPost />
         }
       ]
     },
